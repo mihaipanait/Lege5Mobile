@@ -72,13 +72,13 @@ p {
     .top-header .versions-container .cloud-btn {
       top: -5px;
       left: 270px;
-      background: url("../images/cloud.png") no-repeat center center; }
+      background: url("../images/cloud-gray.png") no-repeat center center; }
       .top-header .versions-container .cloud-btn:hover {
         background-image: url("../images/cloud-over.png"); }
     .top-header .versions-container .mobile-btn {
       top: 0;
       left: 100px;
-      background: url("../images/mobile-gray.png") no-repeat center center; }
+      background: url("../images/mobile.png") no-repeat center center; }
       .top-header .versions-container .mobile-btn:hover {
         background-image: url("../images/mobile-over.png"); }
     .top-header .versions-container .desktop-btn {
@@ -203,7 +203,7 @@ p {
 
 /* Features content */
 .features {
-  background: #6bac36;
+  background: #7d36ac;
   padding: 0 0 30px;
   color: #fff; }
   .features .container {
@@ -343,7 +343,7 @@ p {
 /* Pricing content */
 .pricing {
   padding: 50px 0 0 0;
-  background: #6bac36; }
+  background: #7d36ac; }
   .pricing .panel-default {
     border-color: #ccc;
     padding: 15px 0;
@@ -474,8 +474,8 @@ p {
   position: relative; }
 
 .panel-heading-primary {
-  background-color: #88c25a;
-  border-color: #699349; }
+  background-color: #882c9c;
+  border-color: #601f6f; }
 
 .panel-heading-secondary {
   background-color: #fc6657;
@@ -536,7 +536,7 @@ p {
 /* Contact Info */
 .contact {
   color: #ffffff;
-  background: #6bac36;
+  background: #7d36ac;
   padding: 5px 0 5px; }
   .contact .contact-info {
     padding: 0px;
@@ -558,7 +558,7 @@ p {
     width: 220px;
     margin: 10px auto; }
     .contact .cinfo-social-buttons .btn {
-      color: #6bac36;
+      color: #7d36ac;
       background-color: #fff;
       width: 30px;
       height: 30px;
@@ -629,9 +629,9 @@ footer .copyright {
 
 /* Button Primary Color */
 .btn-primary-base {
-  background: #88c25a;
+  background: #882c9c;
   color: #fff;
-  box-shadow: 0 4px #699349;
+  box-shadow: 0 4px #601f6f;
   -webkit-transition: none;
   -moz-transition: none;
   transition: none; }
@@ -640,11 +640,11 @@ footer .copyright {
 .btn-primary-rs {
   border-radius: 5px; }
   .btn-primary-rs:hover {
-    box-shadow: 0 2px #699349;
+    box-shadow: 0 2px #601f6f;
     top: 2px;
     color: #fff; }
   .btn-primary-rs:active {
-    box-shadow: 0 0 #699349;
+    box-shadow: 0 0 #601f6f;
     top: 4px; }
   .btn-primary-rs:focus {
     color: #fff; }
@@ -695,9 +695,9 @@ footer .copyright {
 
 /* Button Quaternary */
 .btn-quaternary-base {
-  background: #882c9c;
+  background: #88c25a;
   color: #fff;
-  box-shadow: 0 4px #601f6f;
+  box-shadow: 0 4px #699349;
   -webkit-transition: none;
   -moz-transition: none;
   transition: none; }
@@ -706,11 +706,11 @@ footer .copyright {
 .btn-quaternary-rs {
   border-radius: 5px; }
   .btn-quaternary-rs:hover {
-    box-shadow: 0 2px #601f6f;
+    box-shadow: 0 2px #699349;
     top: 2px;
     color: #fff; }
   .btn-quaternary-rs:active {
-    box-shadow: 0 0 #601f6f;
+    box-shadow: 0 0 #699349;
     top: 4px; }
   .btn-quaternary-rs:focus {
     color: #fff; }
@@ -721,10 +721,10 @@ footer .copyright {
 
 /* colors */
 .primary-text {
-  color: #88c25a !important; }
+  color: #882c9c !important; }
 
 .primary-bg {
-  background: #88c25a !important; }
+  background: #882c9c !important; }
 
 .secondary-text {
   color: #fc6657 !important; }
@@ -739,10 +739,10 @@ footer .copyright {
   background: #3b99d8 !important; }
 
 .quaternary-text {
-  color: #882c9c !important; }
+  color: #88c25a !important; }
 
 .quaternary-bg {
-  background: #882c9c !important; }
+  background: #88c25a !important; }
 
 .ligth-green-bg {
   background: #EEF7E7 !important; }
@@ -771,7 +771,7 @@ footer .copyright {
   padding: 6px 15px; }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #6bac36; }
+  color: #7d36ac; }
 
 /* Owl top slider */
 #owl-top-slider .item img {
