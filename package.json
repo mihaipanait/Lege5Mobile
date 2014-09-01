@@ -9,9 +9,9 @@
   "author": "Mihai Panait",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mihaipanait/Lege5Cloud/issues"
+    "url": "https://github.com/mihaipanait/Lege5Mobile/issues"
   },
-  "homepage": "https://github.com/mihaipanait/Lege5Cloud",
+  "homepage": "https://github.com/mihaipanait/Lege5Mobile",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-sass": "^0.8.1",
