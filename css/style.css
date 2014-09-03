@@ -203,7 +203,7 @@ p {
 
 /* Features content */
 .features {
-  background: #7d36ac;
+  background: #694096;
   padding: 0 0 30px;
   color: #fff; }
   .features .container {
@@ -343,7 +343,7 @@ p {
 /* Pricing content */
 .pricing {
   padding: 50px 0 0 0;
-  background: #7d36ac; }
+  background: #694096; }
   .pricing .panel-default {
     border-color: #ccc;
     padding: 15px 0;
@@ -474,7 +474,7 @@ p {
   position: relative; }
 
 .panel-heading-primary {
-  background-color: #882c9c;
+  background-color: #703399;
   border-color: #601f6f; }
 
 .panel-heading-secondary {
@@ -536,7 +536,7 @@ p {
 /* Contact Info */
 .contact {
   color: #ffffff;
-  background: #7d36ac;
+  background: #694096;
   padding: 5px 0 5px; }
   .contact .contact-info {
     padding: 0px;
@@ -558,7 +558,7 @@ p {
     width: 220px;
     margin: 10px auto; }
     .contact .cinfo-social-buttons .btn {
-      color: #7d36ac;
+      color: #694096;
       background-color: #fff;
       width: 30px;
       height: 30px;
@@ -629,7 +629,7 @@ footer .copyright {
 
 /* Button Primary Color */
 .btn-primary-base {
-  background: #882c9c;
+  background: #703399;
   color: #fff;
   box-shadow: 0 4px #601f6f;
   -webkit-transition: none;
@@ -721,10 +721,10 @@ footer .copyright {
 
 /* colors */
 .primary-text {
-  color: #882c9c !important; }
+  color: #703399 !important; }
 
 .primary-bg {
-  background: #882c9c !important; }
+  background: #703399 !important; }
 
 .secondary-text {
   color: #fc6657 !important; }
@@ -771,7 +771,7 @@ footer .copyright {
   padding: 6px 15px; }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #7d36ac; }
+  color: #694096; }
 
 /* Owl top slider */
 #owl-top-slider .item img {
