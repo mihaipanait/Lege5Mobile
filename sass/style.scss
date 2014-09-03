@@ -1232,4 +1232,19 @@ footer{
 		}
 	}
 
+	.services {
+		.container {
+			.details {
+				h4 {
+					.image-link {
+						display: table-cell;
+						vertical-align: middle;
+						width: 190px;
+						height: 100px;
+					}
+				}
+			}
+		}
+	}
+
 }
