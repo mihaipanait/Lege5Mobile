@@ -395,12 +395,17 @@ p {
 				font-weight: 300;
 				display: inline-block;
 				line-height: 0px;
-				padding: 15px 5px;      
+				width: 30px;
+				height: 30px;   
 			}
 
 			.boxclose:before {
-				content: "×";
-
+				content: "\78"; //"x"
+				font-family: "icomoon", sans-serif;
+				position: relative;
+				font-size: 32px;
+				top: 13px;
+				left: -2px;
 			}
 
 			img{
@@ -628,12 +633,17 @@ p {
 				font-weight: 300;
 				display: inline-block;
 				line-height: 0px;
-				padding: 15px 5px;      
+				width: 30px;
+				height: 30px;     
 			}
 
 			.boxclose:before {
-				content: "×";
-
+				content: "\78"; //"x"
+				font-family: "icomoon", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				position: relative;
+				font-size: 32px;
+				top: 13px;
+				left: -2px;
 			}
 
 			img{
