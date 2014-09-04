@@ -322,6 +322,10 @@ p {
         line-height: 30px;
         color: #fff;
         text-align: justify; }
+        .features .container .details p a {
+          color: #D8B5E9; }
+          .features .container .details p a:hover {
+            color: #CFCFCF; }
       .features .container .details ul li {
         font-size: 16px;
         line-height: 30px;
@@ -547,6 +551,10 @@ p {
 .no-padding {
   padding-right: 0 !important;
   padding-left: 0 !important; }
+
+.small-padding {
+  padding-right: 3px !important;
+  padding-left: 3px !important; }
 
 .extra-padding {
   padding-bottom: 56px;
