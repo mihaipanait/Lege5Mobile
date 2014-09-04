@@ -3,7 +3,6 @@ var app = angular.module("app",['ui.router', 'ct.ui.router.extras']);
 app.directive('prettyp', function(){
   return function(scope, element, attrs) {
     $("[rel^='prettyPhoto']").prettyPhoto({deeplinking: false, social_tools: false});
-    console.log("test directive");
   }
 });
 
