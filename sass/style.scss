@@ -331,6 +331,7 @@ p {
 				font-weight:500;
 				border-bottom: white solid 1px;
 				padding-bottom: 20px;
+				min-height: 67px;
 			}
 
 			p {
@@ -338,6 +339,14 @@ p {
 				line-height:24px;
 				color:#fff;
 				text-align: justify;
+
+				a{
+					color: #D8B5E9;
+
+					&:hover{
+						color: #CFCFCF;
+					}
+				}
 			}
 
 			.image-link{
@@ -375,6 +384,38 @@ p {
 
 				&:hover{
 					background-image: url('../images/versionare-over.png');
+				}
+			}
+
+			.mobile-app-btn{
+				background: url('../images/mobile-app.png') no-repeat center center;
+
+				&:hover{
+					background-image: url('../images/mobile-app-over.png');
+				}
+			}
+
+			.navigare-btn{
+				background: url('../images/navigare.png') no-repeat center center;
+
+				&:hover{
+					background-image: url('../images/navigare-over.png');
+				}
+			}
+
+			.notificari-btn{
+				background: url('../images/notificari.png') no-repeat center center;
+
+				&:hover{
+					background-image: url('../images/notificari-over.png');
+				}
+			}
+
+			.instanta-btn{
+				background: url('../images/instanta.png') no-repeat center center;
+
+				&:hover{
+					background-image: url('../images/instanta-over.png');
 				}
 			}
 
@@ -445,6 +486,22 @@ p {
 
 				.versionare-btn{
 					background: url('../images/versionare-over.png') no-repeat center center;
+				}
+
+				.mobile-app-btn{
+					background: url('../images/mobile-app-over.png') no-repeat center center;
+				}
+
+				.navigare-btn{
+					background: url('../images/navigare-over.png') no-repeat center center;
+				}
+
+				.notificari-btn{
+					background: url('../images/notificari-over.png') no-repeat center center;
+				}
+
+				.instanta-btn{
+					background: url('../images/instanta-over.png') no-repeat center center;
 				}
 			}
 
