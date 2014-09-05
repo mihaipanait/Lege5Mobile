@@ -6,6 +6,13 @@ app.directive('prettyp', function(){
   }
 });
 
+app.controller('UtilityController', ['$scope', function($scope){
+	$scope.visitLink = function(linkToVisit){		
+		var options = { speed: 100, easing: 'easeOutCubic',updateURL: false, offset: 0};
+		smoothScroll.animateScroll( null, linkToVisit, options);
+	};
+}]);
+
 app.config(function($stateProvider, $urlRouterProvider, $stickyStateProvider){ 
 	//$stickyStateProvider.enableDebug(true);
 
@@ -26,7 +33,7 @@ app.config(function($stateProvider, $urlRouterProvider, $stickyStateProvider){
 		url: "features",
 		views: {
 			"features-view@": { 
-				templateUrl: "features-panels"				
+				templateUrl: "features-panels"			
 			},
 			"features-details-view@": { }
 		},

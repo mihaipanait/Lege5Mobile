@@ -189,11 +189,11 @@
 
 			<!-- Feature - 1 -->
 			<div class="col-md-6 col-lg-3 text-center row-eq-height fadeIn animated">
-				<div class="feature">
+				<div class="feature" ng-controller="UtilityController">
 					<a ui-sref="root.feature-details-01"><span class="image-link mobile-app-btn wow zoomIn" data-wow-duration="0.5s" data-wow-delay="0.1s"></span></a>
 					<h4>Aplicaţie Mobile dedicată</h4>
 					<p>Descărcaţi gratuit aplicaţia din Google Play, Aple Store sau Windows Store. Odată instalată, vă va permite să aflaţi în timp real noutăţile legislative.</p><p>
-Avantajele aplicaţiei Lege5 Mobile cresc prin achiziţionarea unui <a data-scroll href="#pricing-section">abonament</a>. Logarea se face cu user-ul şi parola aferente contului dvs. de Lege5 Online.</p>
+Avantajele aplicaţiei Lege5 Mobile cresc prin achiziţionarea unui <a href ng-click="visitLink('#pricing-section')">abonament</a>. Logarea se face cu user-ul şi parola aferente contului dvs. de Lege5 Online.</p>
 					<div class="custom-btn-wrapper"><a ui-sref="root.feature-details-01" class="custom-btn btn-tertiary-base btn-tertiary-rs">Află mai mult</a></div>
 				</div>
 			</div>
@@ -991,7 +991,7 @@ Avantajele aplicaţiei Lege5 Mobile cresc prin achiziţionarea unui <a data-scro
 
 <!-- Tabs Content -->
 <a class="anchor" id="technologies"></a>
-<div class="container tabs-content">
+<div class="container tabs-content" ng-controller="UtilityController">
 	<!-- tabs row -->
 	<div class="row">
 		<h2>Platforme suportate</h2>
@@ -1044,7 +1044,7 @@ Avantajele aplicaţiei Lege5 Mobile cresc prin achiziţionarea unui <a data-scro
 								<li><span style="font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; font-size: 15px; line-height: 1.5em; color: rgb(51, 51, 51);">Notificări legislative</span></li>
 								<li><span style="font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; font-size: 15px; line-height: 1.5em; color: rgb(51, 51, 51);">Comentarii expert</span></li>
 							</ul>
-							<p><i>Aplicatia Lege5 pentru Windows Phone este gratuită. Aveți nevoie de un <a data-scroll href="#pricing-section">abonament Lege5</a> pentru a vă loga.</i></p>
+							<p><i>Aplicatia Lege5 pentru Windows Phone este gratuită. Aveți nevoie de un <a href ng-click="visitLink('#pricing-section')">abonament Lege5</a> pentru a vă loga.</i></p>
 							<p><a href="http://www.windowsphone.com/ro-ro/store/app/lege5-online/5bce1508-44be-4650-89d9-af9d850851e6/" target="_blank">
 								<button class="custom-btn btn-primary-base btn-primary-rs"><i class="icon-windows"></i> Downloadează din Windows Store</button></a>
 							</p>
@@ -1091,7 +1091,7 @@ Avantajele aplicaţiei Lege5 Mobile cresc prin achiziţionarea unui <a data-scro
 								<li><span style="font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; font-size: 15px; line-height: 1.5em; color: rgb(51, 51, 51);">Notificări legislative</span></li>
 								<li><span style="font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; font-size: 15px; line-height: 1.5em; color: rgb(51, 51, 51);">Comentarii expert</span></li>
 							</ul>
-							<p><i>Aplicatia Lege5 pentru iOS este gratuită. Aveți nevoie de un <a data-scroll href="#pricing-section">abonament Lege5</a> pentru a vă loga.</i></p>
+							<p><i>Aplicatia Lege5 pentru iOS este gratuită. Aveți nevoie de un <a href ng-click="visitLink('#pricing-section')">abonament Lege5</a> pentru a vă loga.</i></p>
 							<p><a href="https://itunes.apple.com/us/app/lege5/id710516078?ls=1&mt=8" target="_blank"><button class="custom-btn btn-primary-base btn-primary-rs"><i class="icon-apple"></i> Downloadează din AppStore</button></a>
 							</p>
 						</div>
@@ -1139,7 +1139,7 @@ Avantajele aplicaţiei Lege5 Mobile cresc prin achiziţionarea unui <a data-scro
 								<li><span style="font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; font-size: 15px; line-height: 1.5em; color: rgb(51, 51, 51);">Notificări legislative</span></li>
 								<li><span style="font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; font-size: 15px; line-height: 1.5em; color: rgb(51, 51, 51);">Comentarii expert</span></li>
 							</ul>
-							<p><i>Aplicatia Lege5 pentru Android este gratuită. Aveți nevoie de un <a data-scroll href="#pricing-section">abonament Lege5</a> pentru a vă loga.</i></p>
+							<p><i>Aplicatia Lege5 pentru Android este gratuită. Aveți nevoie de un <a href ng-click="visitLink('#pricing-section')">abonament Lege5</a> pentru a vă loga.</i></p>
 							<p><a href="https://play.google.com/store/apps/details?id=ro.indaco.lege5android" target="_blank"><button class="custom-btn btn-primary-base btn-primary-rs"><i class="icon-android"></i> Downloadează din Google Play</button></a>
 							</p>
 						</div>
