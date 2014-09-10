@@ -271,7 +271,7 @@ p {
         margin-right: 0px;
         cursor: pointer;
         color: #FFF;
-        background: #A03FBE;
+        background: #914BAC;
         font-size: 40px;
         font-weight: 300;
         display: inline-block;
@@ -450,7 +450,7 @@ p {
       margin-right: 0px;
       cursor: pointer;
       color: #FFF;
-      background: #A03FBE;
+      background: #914BAC;
       font-size: 40px;
       font-weight: 300;
       display: inline-block;
@@ -520,8 +520,8 @@ p {
   position: relative; }
 
 .panel-heading-primary {
-  background-color: #703399;
-  border-color: #601f6f; }
+  background-color: #914bac;
+  border-color: #5f2f8b; }
 
 .panel-heading-secondary {
   background-color: #fc6657;
@@ -679,9 +679,9 @@ footer .copyright {
 
 /* Button Primary Color */
 .btn-primary-base {
-  background: #703399;
+  background: #914bac;
   color: #fff;
-  box-shadow: 0 4px #601f6f;
+  box-shadow: 0 4px #5f2f8b;
   -webkit-transition: none;
   -moz-transition: none;
   transition: none; }
@@ -690,11 +690,11 @@ footer .copyright {
 .btn-primary-rs {
   border-radius: 5px; }
   .btn-primary-rs:hover {
-    box-shadow: 0 2px #601f6f;
+    box-shadow: 0 2px #5f2f8b;
     top: 2px;
     color: #fff; }
   .btn-primary-rs:active {
-    box-shadow: 0 0 #601f6f;
+    box-shadow: 0 0 #5f2f8b;
     top: 4px; }
   .btn-primary-rs:focus {
     color: #fff; }
@@ -771,10 +771,10 @@ footer .copyright {
 
 /* colors */
 .primary-text {
-  color: #703399 !important; }
+  color: #914bac !important; }
 
 .primary-bg {
-  background: #703399 !important; }
+  background: #914bac !important; }
 
 .secondary-text {
   color: #fc6657 !important; }
