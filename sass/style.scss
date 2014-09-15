@@ -278,12 +278,14 @@ p {
 		font-size:32px;
 		margin-bottom:15px;
 		line-height: 46px;
+		color: $main-color;
+		font-weight: 600;
 	}
 
 	p {
 		font-size:16px;
 		margin:0 auto 30px;
-		line-height:25px;
+		line-height:25px;		
 	}
 
 	li {
